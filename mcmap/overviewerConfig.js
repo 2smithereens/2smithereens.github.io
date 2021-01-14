@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "BGB"
+        "BGB - overworld",
+        "BGB - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1610589873",
+        "cacheTag": "1610594461",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +42,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "BGB Normal Render",
+            "name": "Daytime",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "normalrender",
+            "path": "daytime",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "BGB",
-            "last_rendertime": 1610589714,
+            "world": "BGB - overworld",
+            "last_rendertime": 1610594214,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -66,6 +67,79 @@ var overviewerConfig = {
                 -167
             ],
             "north_direction": 0
+        },
+        {
+            "name": "Nightime",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "nighttime",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "BGB - overworld",
+            "last_rendertime": 1610594214,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -111,
+                80,
+                -167
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -111,
+                80,
+                -167
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Nether",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "BGB - nether",
+            "last_rendertime": 1609291133,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -111,
+                80,
+                -167
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "NetherSouth",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "nethersouth",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "BGB - nether",
+            "last_rendertime": 1609291133,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -111,
+                80,
+                -167
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
