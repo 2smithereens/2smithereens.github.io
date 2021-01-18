@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1610937803",
+        "cacheTag": "1610949711",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1610937556,
+            "last_rendertime": 1610949556,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -77,7 +77,34 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1610937556,
+            "last_rendertime": 1610949556,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -111,
+                80,
+                -167
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -111,
+                80,
+                -167
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Cave",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "cave",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "BGB - overworld",
+            "last_rendertime": 1610949556,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
