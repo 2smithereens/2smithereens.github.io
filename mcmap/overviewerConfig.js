@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1612225692",
+        "cacheTag": "1612226846",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1612224880,
+            "last_rendertime": 1612226680,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -77,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1612224880,
+            "last_rendertime": 1612226680,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -104,7 +104,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1612224880,
+            "last_rendertime": 1612226680,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -123,7 +123,7 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "No Water",
+            "name": "NoWater",
             "zoomLevels": 9,
             "defaultZoom": 1,
             "maxZoom": 9,
@@ -131,7 +131,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "BGB - overworld",
-            "last_rendertime": 1612224880,
+            "last_rendertime": 1612226680,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
