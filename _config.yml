@@ -1,2 +1,4 @@
 name: 2smithereens
 markdown: kramdown
+baseurl: ""
+url: "https://2smithereens.github.io"
