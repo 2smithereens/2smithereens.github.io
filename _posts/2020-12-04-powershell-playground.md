@@ -1,7 +1,13 @@
 ---
 layout: post
-title: "Powershell Playground"
-date: 2020-12-04
+title: Powershell Playground
+post-image: "../../assets/images/code.png"
+description: Let's get started
+tags:
+- code
+- powershell
+- learning
+
 ---
 This post is going to be a centralized place that I drop little tidbits of code that I've learned when working on powershell.
 

@@ -1,30 +1,43 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>{{ page.title }}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
+{% include head.html %}
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-    </nav>
-    <div class="container" id="particles-js">
-        {{ content }}
-    </div><!-- /.container -->
-    <footer>
-        <ul>
-            <li><a href="mailto:2smithereens@protonmail.com">email</a></li>
-            <li><a href="https://github.com/2smithereens">github.com/2smithereens</a></li>
-        </ul>
-    </footer>
-<script type="text/javascript" src="{{ base.url | prepend: site.url }}/assets/particles.js"></script>
-<script type="text/javascript" src="{{ base.url | prepend: site.url }}/assets/app.js"></script>
+    {% include navbar.html %}
+    {% include showcase.html %}
+    {% include about.html %}
+    {% include contact.html %}
+    <!--Footer-->
+    {% include footer.html %}
+    <script>
+        window.addEventListener("scroll",function(event) {
+            var scroll = this.scrollY;
+            var item = document.getElementsByClassName('navbar-item');
+            /* console.log(scroll); */
+
+            if (scroll < 565) {
+                item[1].classList.add('is-active');
+                item[2].classList.remove('is-active');
+                item[3].classList.remove('is-active');
+            }
+            if (scroll > 565 && scroll < 1130) {
+                item[1].classList.remove('is-active');
+                item[2].classList.add('is-active');
+                item[3].classList.remove('is-active');
+            }
+            if (scroll > 1130) {
+                item[1].classList.remove('is-active');
+                item[2].classList.remove('is-active');
+                item[3].classList.add('is-active');
+            }
+
+        });
+    </script>
+    <script type="text/javascript" src="{{site.url}}/assets/particles.js"></script>
+    <script type="text/javascript" src="{{site.url}}/assets/app.js"></script>
+</body>
 </html>

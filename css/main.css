@@ -1,12 +1,16 @@
+html,
 body {
-    margin: 60px auto;
-    width: 70%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(13, 79, 82);
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0.2em;
     list-style: none;
     font-weight: bold;
+    float:right;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -30,6 +34,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    padding: 0.2em;
 }
 
 ul.posts { 
@@ -40,3 +45,17 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.content {
+    width: 70%;
+    margin: 1em auto;
+    padding: 2em;
+}
+#particles-js {
+    background: rgb(13, 79, 82);
+    vertical-align: bottom;
+    min-height: 95.1vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }

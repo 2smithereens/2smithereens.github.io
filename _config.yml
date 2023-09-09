@@ -1,4 +1,82 @@
-name: 2smithereens
 markdown: kramdown
+name: 2smithereens
+
 baseurl: ""
-url: "https://2smithereens.github.io"
+
+url: "https://www.2sm.dev"
+
+#Adding functionality based on WhatATheme
+title: 2smithereens
+
+description: Cyber Security, Protecting What Matters, and Life
+
+site-image: /assets/images/meta.jpg
+
+site-keywords: cybersecurity,powershell,security,technology
+
+favicon-url:
+
+heroimage: /assets/images/bg.png
+
+#Socials
+email: me@2sm.dev
+twitter_username: itssmithereens
+linkedin_username: dietersmith
+github_username: 2smithereens
+#facebook_username: 
+#instagram_username:
+#youtube_channel_id:
+#reddit_username:
+
+#other info
+author-name: 2smithereens
+author-image: https://github.com/2smithereens/store/blob/main/ds.png?raw=true
+author-about: Cybersecurity - Geek - Purple teamer - Dad - Gamer
+author-url: https://github.com/2smithereens
+
+#SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+#Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+#Permalink
+permalink: "blog/:title"
+
+#Compress
+compress_html:
+  clippings: all
+
+#Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+#Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

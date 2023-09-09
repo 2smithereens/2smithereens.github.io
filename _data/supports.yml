@@ -1,0 +1,12 @@
+- name: Black Hills Infosec
+  link: https://www.blackhillsinfosec.com/
+  image: ../assets/images/bhis.png
+  description: The community that John Strand and his team have built around BHIS, Wild West Hackin Fest, and Anti-Syphon is an amazing resource for people at any level of cybersecurity.
+- name: Defensive Origins
+  link: https://defensiveorigins.com/
+  image: ../assets/images/do.png
+  description: Jordan and Kent here – we’ve been in your shoes. We both have dual roles as sysadmins and pentesters. We’ve seen the best and the worst of each side, which led us to using those experiences to develop our signature course, Applied Purple Teaming for both large and small scale organizations. 
+- name: Camp Bays Mountain
+  link: http://www.campbaysmountain.com/
+  image: ../assets/images/cbm.png
+  description: Our mission is to connect campers to God through a grade-level program progression in the great outdoors. Come camp with us!

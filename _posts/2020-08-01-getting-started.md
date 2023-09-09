@@ -1,7 +1,12 @@
 ---
 layout: post
-title: "Getting Started"
-date: 2020-08-01
+title: Getting Started
+post-image: "../../assets/images/writing.png"
+description: Let's get started
+tags:
+- start
+- learning
+- blog
 ---
 
 For the longest time, I have wanted to write a blog. I have way too many ideas and thoughts knocking around in my head, and while I have a fairly good memory now, I know that eventually, more important things will start filling up that space, and I won't remember what I need to when I need to.
